@@ -15,7 +15,6 @@ int main (int argc, char *argv[])
    int i, j, k;
    int pos;
    int temp;
-   printf("%d numbers\n",len);
    for(i=0;i<len;i++){
    	printf("%d ",input[i]);
    }
@@ -44,6 +43,6 @@ int main (int argc, char *argv[])
    for(i=0;i<len;i++){
    	printf("%d ",input[i]);
    }
-   printf("\n%d\n", n);
+   printf("\n");
    return 0;
 }
